@@ -52,9 +52,10 @@ class Mysql {
         $res = mysqli_query($this->_db,$sql);
         return mysqli_fetch_assoc($res);
     }
+
     public function getAllTrack($id)
     {
-        $sql = 'SELECT * FROM `visit` WHERE `track_id` = ' .$id;
+        $sql = 'SELECT * FROM `visit` WHERE `track_id` = ' .$id .' ORDER BY `id` desc';
 //        print_r($sql);die;
         $res = mysqli_query($this->_db,$sql);
         return mysqli_fetch_all($res,MYSQLI_ASSOC);

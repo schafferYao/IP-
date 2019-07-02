@@ -69,7 +69,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         <td><?php echo $item['browser']; ?></td>
         <td><?php echo $item['sdk']; ?></td>
         <td><?php echo date('Y-m-d H:i:s',$item['create_time']); ?></td>
-        <td><?php echo '<a href="/details.php?id='. $item['id'] .'">查看</a>'; ?></td>
+        <td><?php echo '<a target="_blank" href="/details.php?id='. $item['id'] .'">查看</a>'; ?></td>
     </tr>
     <?php
             }

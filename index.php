@@ -27,10 +27,10 @@ $lastId = $res;
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=PuRL8soZmobdbOIgdGDQ0qCxdYWTGgK2"></script>
-    <title>浏览器定位</title>
+    <title>我的世界</title>
 </head>
 <body>
-
+hello
 </body>
 </html>
 <script src="./jquery-3.4.1.min.js"></script>
