@@ -36,7 +36,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     }
 
     echo "创建成功ID：<span style='color: red'>".$res .'</span><br>';
-    echo "链接地址:<span style='color: red'>http://l.yao.com?id=".$res.'</span><br>';
+    echo "链接地址:<span style='color: red'>http://location.yaoxiangfei.com?id=".$res.'</span><br>';
 }
 
 
